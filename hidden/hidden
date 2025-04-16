@@ -1,0 +1,2 @@
+cette exercice constste en plusieur couche de dossier de maniere recursive avec un nombre de cominaison de 26 * 26 * 26 dossier et a chaque fois il y a des readme avec une phrase marrante
+donc j ai fait un script python qui request le server pour chaque chemin jusqu'a trouver un fichier qui contenait le mot flag j'ai multithreader le premier niveau de dossier pour aller plus vite.
