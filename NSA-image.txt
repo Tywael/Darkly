@@ -1,0 +1,16 @@
+L'image "NSA" est la seule qui est un lien clickable.
+Lorsqu'on clic dessus on se retrouve sur l'URL' : "/?page=media&src=nsa".
+Ce qui veut dire qu'on a une page "media" et un argument "src=nsa".
+En changeant "nsa" par "toto" on se rends compte que le site embed une seconde page (404) dans la page "media".
+Dans l'inspecteur on trouve : "<object data="toto"></object>"
+
+En effectuant des recherches sur des failles web sur "<object data=" on trouve qu'une faile XSS est possible.
+On a donc tenté : "/?page=media&src=data:text/html,<script>alert(1)</script>" et avons eu une alerte.
+Ceci est déjà une faille suffisante qui aurait déjà du nous afficher le flag.
+
+Après des recherches nous avons découvert cette page web dédiée à une faille :
+https://capec.mitre.org/data/definitions/244.html
+Elle nous indiquait plutôt d'utiliser : "text/html;base64,PAYLOAD"
+
+Nous avons donc tenté avec "/?page=media&src=data:text/html;base64,PHNjcmlwdD5hbGVydCgxKTwvc2NyaXB0Pg==" et avons obtenu le flag.
+The flag is : 928d819fc19405ae09921a2b71227bd9aba106f9d2d37ac412e9e5a750f1506d
