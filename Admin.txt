@@ -1,0 +1,5 @@
+En allant sur "/robots.txt" on trouve un chemin "/whatever".
+Sur le chemin "/whatever" on trouve un fichier "htpasswd".
+Ce fichier contient : "root:437394baff5aa33daa618be47b75cb49" ce qui en MD5 donne : root:qwerty123@
+
+Ce combo user/password peut être utilisé sur la page "/admin" pour se connecter et obtenir un flag.
