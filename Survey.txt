@@ -1,0 +1,14 @@
+Sur la page survey on peut donner des notes de 1 à 10.
+La query prends en corps du message : "sujet=2&valeur=1"
+En modifiant la valeur pour une valeur supérieure à 10 puis en réexecutant la requête nous obtenons un flag.
+
+1) Clic droit sur la Request
+2) Modifier et renvoyer (Firefox)
+3) Changerr le Corps du message
+4) Double cliquer sur la requête
+5) Une nouvelle page avec le flag s'affiche
+
+
+
+Fix :
+Faire un check en backend pour s'assurer que la value est bien entre 0 et 10.
