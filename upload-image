@@ -1,0 +1,4 @@
+on a tester d'upload des fichiers de tout type. Il se trouve que le site accepte que les jpg, ducoup on a essayer different moyen d'upload du code php mais en faisant croire a un jpg.
+on a fini par tester d'upload un php mais avec un MIME (type de content) d'un jpg il se trouve qu'il ne checkait pas en back end et ca a delivrer le flag.
+de base on l'a trouvé avec un curl -> curl -F "uploaded=@shell.php;type=image/jpeg" -F "Upload=Upload" http://192.168.1.101/?page=upload
+pour la simplicité mais pour finir on a fait un script js qui le fait directement dans le navigateur cf. upload-image.js
