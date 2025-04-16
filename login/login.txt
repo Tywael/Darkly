@@ -1,0 +1,13 @@
+Le login nécessite de trouver un combo de username/password fonctionnels.
+N'ayant aucune information complémentaires, le bruteforce semblait être la solution.
+Cependant bruteforce username ET password aurait pu être très long.
+Nous avons donc décidé de tester les usernames "wil" (trouvé dans feedback), "admin" (classic) et "root" (username du pannel admin).
+Pour les passwords nous avons utilisé une liste des 10'000 password les plus courants.
+
+-> Petit script python pour GET avec chaque combo de username/password. (Cf. login.py)
+-> Nous trouvons le combo "wil/shadow" qui nous a permis d'obtenir le flag.
+
+Après une courte reflexion, nous avons décidé de voir si un combo avec "admin" existait et oui, "admin/shadow" est aussi fonctionnel.
+... mais "skjfgsdiugjfseidufgsdjkfgsdkjfghsd/shadow" aussi.
+
+Le seul prérequis était donc d'utiliser "shadow" comme password.
