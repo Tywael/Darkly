@@ -62,7 +62,7 @@ The repository is organized as follows:
 | 05        | ObjectDataReflectedXSS           | [Breach05_ObjectDataReflectedXSS](Breach05_ObjectDataReflectedXSS/Ressources/writeup.md) |
 | 06        | OpenRedirectSiteParameter        | [Breach06_OpenRedirectSiteParameter](Breach06_OpenRedirectSiteParameter/Ressources/writeup.md) |
 | 07        | SpoofedHeaderAccessBypass        | [Breach07_SpoofedHeaderAccessBypass](Breach07_SpoofedHeaderAccessBypass/Ressources/writeup.md) |
-| 08        | SQLi_Union_ExtractFlag           | [Breach08_SQLi_Union_ExtractFlag](Breach08_SQLi_UnionExtractFlag/Ressources/writeup.md) |
+| 08        | SQLi_Union_ExtractFlag           | [Breach08_SQLi_UnionExtractFlag](Breach08_SQLi_UnionExtractFlag/Ressources/writeup.md) |
 | 09        | SQLi_DeepEnumerationFlagRebuild  | [Breach09_SQLi_DeepEnumerationFlagRebuild](Breach09_SQLi_DeepEnumerationFlagRebuild/Ressources/writeup.md) |
 | 10        | SurveyValueBypass                | [Breach10_SurveyValueBypass](Breach10_SurveyValueBypass/Ressources/writeup.md) |
 | 11        | DirectoryTraversalEtcPasswd      | [Breach11_DirectoryTraversalEtcPasswd](Breach11_DirectoryTraversalEtcPasswd/Ressources/writeup.md) |
