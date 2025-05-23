@@ -41,9 +41,8 @@ Decoded, this represents:
 
 ``<script>alert(1)</script>``
 
-When loaded, this version triggered the payload and displayed the flag:
+When loaded, this version triggered the payload and displayed the [flag](../flag).
 
-``The flag is : 928d819fc19405ae09921a2b71227bd9aba106f9d2d37ac412e9e5a750f1506d``
 
 ## Vulnerability Details
 

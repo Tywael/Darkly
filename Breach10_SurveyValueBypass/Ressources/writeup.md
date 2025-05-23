@@ -14,10 +14,8 @@ Using Firefox’s developer tools:
 4. Send the modified request
 5. Double-click the new request in the network list
 
-The server responded with a new page containing the flag:
+The server responded with a new page containing the [flag](../flag)
 
-``The flag is: [FLAG_VALUE]``  
-(In the real case: `b9e775a0291fed784a2d9680fcfad7edd6b8cdf87648da647aaf4bba288bcab3`)
 
 ## Vulnerability Details
 

@@ -9,14 +9,14 @@ Initially, brute-forcing both the username and password would have been very tim
 - **Usernames tested**:
   - `wil` (seen in feedback section)
   - `admin` (classic default)
-  - `root` (seen in admin panel)
+  - `root` (seen in /whatever)
 
 - **Passwords**:
   - We used a list of the 10,000 most common passwords
 
-Using a small Python script to test every combination (see `login.py`), we found:
+Using a small Python script to test every combination (see `login.py` with adapted IP), we found:
 
-``wil:shadow`` → success → flag displayed
+``wil:shadow`` → success → [flag](../flag) displayed
 
 Out of curiosity, we also tested:
 
@@ -43,12 +43,12 @@ References:
 
 ## Remediation
 
-1. Always validate both the username and password together.
-2. Use strong, proven authentication mechanisms (e.g., OAuth, bcrypt-based login).
-3. Display generic error messages to avoid leaking authentication logic.
-4. Log all failed login attempts and implement rate limiting.
+1. Log all failed login attempts and implement rate limiting.
+2. Always validate both the username and password together.
+3. Use strong, proven authentication mechanisms (e.g., OAuth, bcrypt-based login).
+4. Display generic error messages to avoid leaking authentication logic.
 5. Perform thorough code reviews on custom authentication systems.
-
+---
 > The Python script used for bruteforce testing is available at:  
 > [`Ressources/login.py`](../login.py)
 

@@ -12,9 +12,7 @@ Using browser developer tools (`Right click > Inspect`), we manually changed the
 
 We then submitted the password reset request with the modified value.
 
-The application accepted the input without any client-side or server-side validation and responded with a success message, revealing a flag:
-
-``The flag is : 1d4855f7337c0c14b6f44946872c4eb33853f40b2d54393fbe94f49f1e19bbb0``
+The application accepted the input without any client-side or server-side validation and responded with a success message, revealing a [flag](../flag)
 
 ## Vulnerability Details
 
@@ -35,7 +33,7 @@ To prevent this issue:
 1. Never trust client-side input, including hidden fields.
 2. Always validate critical user input on the server-side using known session or account data.
 3. Avoid exposing any sensitive identifiers (email, user ID) in hidden fields.
-4. Implement CSRF protection on form submissions.
+4. Implement Cross-Site Request Forgery protection on form submissions.
 5. Log and monitor anomalies in password recovery flows.
 
 ---

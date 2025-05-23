@@ -8,26 +8,15 @@ While exploring the website, we clicked on the footer link labeled:
 
 This led us to a special page, seemingly static. Upon inspecting the HTML code of this page, we found a commented block within the source:
 
-```html
-<!-- 
-  To access the hidden content, please make sure:
-  - You are using the User-Agent: BornToSec
-  - Your Referer is: https://www.borntosec.net
--->
-```
-
 This suggested that the server checks for specific HTTP headers before revealing content — namely:
 
-- `User-Agent: BornToSec`
-- `Referer: https://www.borntosec.net`
+- `User-Agent: ft_bornToSec`
+- `Referer: https://www.nsa.gov`
 
-We used a tool (such as curl or a browser extension) to send a request to the page with these headers:
+We used the browser's developer tools to modify the request headers and added the required `User-Agent` and `Referer` headers.
 
-``curl -H "User-Agent: BornToSec" -H "Referer: https://www.borntosec.net" http://target/page``
+Into the response, we found the [flag](../flag).:
 
-Upon reloading the page with these custom headers, the hidden content became visible and revealed a flag:
-
-``The flag is : f2a29020ef3132e01dd61df97fd33ec8d7fcd1388cc9601e7db691d17d4d6188``
 
 ## Vulnerability Details
 
@@ -55,6 +44,6 @@ To prevent this vulnerability:
   <tr>
     <td align="left"><a href="../../Breach06_OpenRedirectSiteParameter/Ressources/writeup.md">← Previous: Breach06</a></td>
     <td align="center"><a href="../../README.md">↑ Back to README</a></td>
-    <td align="right"><a href="../../Breach08_SQLi_UnionExtractFlag/Ressources/writeup.md">Next: Breach08 →</a></td>
+    <td align="right"><a href="../../Breach08_SQLi_DeepEnumerationFlagRebuild/Ressources/writeup.md">Next: Breach08 →</a></td>
   </tr>
 </table>

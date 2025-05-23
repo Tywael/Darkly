@@ -16,7 +16,7 @@ We tested the behavior by changing the `site` parameter to an arbitrary value:
 
 Unexpectedly, instead of receiving an error or fallback behavior, the application responded with a message:
 
-``Good Job Here is the flag : b9e775a0291fed784a2d9680fcfad7edd6b8cdf87648da647aaf4bba288bcab3``
+Good Job Here is the [flag](../flag)
 
 This means that the application performs redirection based on user input without validating the destination, and that it even reveals sensitive information under specific conditions.
 

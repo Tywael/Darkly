@@ -31,6 +31,15 @@ The flag was successfully retrieved from one of the deepest folders in the hiera
 > The script used to automate this process is available here:  
 > [`Ressources/find_readme.py`](./find_readme.py)
 
+To run the script, change the IP address in the code and execute it:
+
+```bash
+python3 find_readme.py
+```
+
+Results:\
+📦 Contenu du flag :
+Hey, here is your [flag](../flag)
 
 ## Vulnerability Details
 
@@ -66,7 +75,7 @@ To prevent such issues:
 <table width="100%">
   <tr>
     <td align="left"><a href="../../Breach01_ExposedHtpasswdCredentials/Ressources/writeup.md">← Previous: Breach01</a></td>
-    <td align="center"><a href="../../../README.md">↑ Back to README</a></td>
+    <td align="center"><a href="../../README.md">↑ Back to README</a></td>
     <td align="right"><a href="../../Breach03_WeakCookieAccessControl/Ressources/writeup.md">Next: Breach03 →</a></td>
   </tr>
 </table>

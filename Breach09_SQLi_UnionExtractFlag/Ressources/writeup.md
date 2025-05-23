@@ -33,13 +33,11 @@ This revealed the following:
 - **URL**: borntosec.ddns.net/images.png  
 - **Comment**: If you read this just use this md5 decode lowercase then sha256 to win this flag ! : `1928e8083cf461a51303633093573c46`
 
-We decoded the MD5 hash to:
+We [decoded the MD5](https://md5hashing.net/hash/md5/1928e8083cf461a51303633093573c46) hash to:
 
 ``albatroz``
 
-Then hashed it using SHA256 to obtain the final flag:
-
-``f2a29020ef3132e01dd61df97fd33ec8d7fcd1388cc9601e7db691d17d4d6188``
+Then hashed it using [SHA256](https://10015.io/tools/sha256-encrypt-decrypt) to obtain the final [flag](../flag)
 
 ## Vulnerability Details
 
@@ -66,8 +64,8 @@ References:
 
 <table width="100%">
   <tr>
-    <td align="left"><a href="../../Breach07_SpoofedHeaderAccessBypass/Ressources/writeup.md">← Previous: Breach07</a></td>
+    <td align="left"><a href="../../Breach08_SQLi_DeepEnumerationFlagRebuild/Ressources/writeup.md">← Previous: Breach07</a></td>
     <td align="center"><a href="../../README.md">↑ Back to README</a></td>
-    <td align="right"><a href="../../Breach09_SQLi_DeepEnumerationFlagRebuild/Ressources/writeup.md">Next: Breach09 →</a></td>
+    <td align="right"><a href="../../Breach10_SurveyValueBypass/Ressources/writeup.md">Next: Breach09 →</a></td>
   </tr>
 </table>

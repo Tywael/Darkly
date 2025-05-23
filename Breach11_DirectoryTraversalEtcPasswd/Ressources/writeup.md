@@ -17,8 +17,7 @@ We tested for this by attempting to access the UNIX password file `/etc/passwd`,
 - `?page=../../../../../etc/passwd` → “Still nope..”
 - `?page=../../../../../../etc/passwd` → “Nope..”
 - `?page=../../../../../../../etc/passwd` →  
-→ **Success**, response:  
-`Congratulation!! The flag is : b12c4b2cb8094750ae121a676269aa9e2872d07c06e429d25a63196ec1c8c1d0`
+→ **Success**, response with the [flag](../flag).
 
 ## Vulnerability Details
 

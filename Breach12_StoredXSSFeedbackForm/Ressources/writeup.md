@@ -12,11 +12,11 @@ Submitting any basic XSS payload in the `comment` field causes it to be stored s
 2. `<svg/onload=alert('XSS')>`
 3. `script` (WTF?)
 
-These payloads are not only executed immediately after submission but also persist across page reloads or even server restarts, confirming that the payload is stored.
+These payloads are not only executed immediately after submission but also persist across page reloads.
 
 Upon execution, the following message appears:
 
-``The flag is: [actual flag here]``
+The [flag](../flag) is
 
 ## Vulnerability Details
 

@@ -8,17 +8,17 @@ There, we found a cookie named:
 
 ``I_am_admin=68934a3e9455fa72420237eb05902327``
 
-A quick Google search revealed that this MD5 hash corresponds to the value:
+A [quick Google search](https://md5hashing.net/hash/md5/68934a3e9455fa72420237eb05902327) revealed that this MD5 hash corresponds to the value:
 
 ``false``
 
-We suspected that the application might rely on this cookie value to determine user privileges. To test this hypothesis, we replaced the value with the MD5 hash of `true`, which is:
+We suspected that the application might rely on this cookie value to determine user privileges. To test this hypothesis, we replaced the value with the MD5 hash of [true](https://10015.io/tools/md5-encrypt-decrypt), which is:
 
 ``b326b5062b2f0e69046810717534cb09``
 
 After refreshing the page with this modified cookie, the application revealed a success message and a flag:
 
-``Good job! Flag : df2eb4ba34ed059a1e3e89ff4dfc13445f104a1a52295214def1c4fb1693a5c3``
+Good job! [Flag](../flag)
 
 
 ## Vulnerability Details
@@ -42,8 +42,7 @@ To prevent this issue:
 1. Never rely on client-side data (cookies, hidden fields, etc.) to control authorization logic.
 2. Always verify privileges on the server side based on session state or secure tokens.
 3. Avoid storing sensitive values or access indicators in cookies unless they are cryptographically signed (e.g., JWTs with validation).
-4. Use HTTP-only and secure flags on cookies to reduce exposure.
-5. Implement proper session management with backend validation mechanisms.
+4. Implement proper session management with backend validation mechanisms.
 
 ---
 
