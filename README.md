@@ -2,10 +2,13 @@
 
 ## Table of Contents
 
-- [Introduction](#introduction)
-- [Requirements](#requirements)
-- [Installation](#installation)
-- [Breaches](#breaches)
+- [Project WEB SECURITY: Darkly](#project-web-security-darkly)
+  - [Table of Contents](#table-of-contents)
+  - [Introduction](#introduction)
+  - [Requirements](#requirements)
+  - [Installation](#installation)
+  - [Breaches](#breaches)
+  - [Notes](#notes)
 
 ## Introduction
 
@@ -52,7 +55,21 @@ The repository is organized as follows:
 
 | Breach ID | Title             | Write-up                                      |
 |-----------|------------------|-----------------------------------------------|
-| 01        | ExposedHtpasswdCredentials     | [Breach01_ExposedHtpasswdCredentials/Ressources/writeups.md](Breach01_ExposedHtpasswdCredentials/Ressources/writeups.md) |
+| 01        | ExposedHtpasswdCredentials     | [Breach01_ExposedHtpasswdCredentials](Breach01_ExposedHtpasswdCredentials/Ressources/writeups.md) |
+| 02        | RecursiveReadmeEnumeration     | [Breach02_RecursiveReadmeEnumeration](Breach02_RecursiveReadmeEnumeration/Ressources/writeups.md) |
+| 03        | WeakCookieAccessControl          | [Breach03_WeakCookieAccessControl](Breach03_WeakCookieAccessControl/Ressources/writeup.md) |
+| 04        | HiddenFieldEmailManipulation     | [Breach04_HiddenFieldEmailManipulation](Breach04_HiddenFieldEmailManipulation/Ressources/writeup.md) |
+| 05        | ObjectDataReflectedXSS           | [Breach05_ObjectDataReflectedXSS](Breach05_ObjectDataReflectedXSS/Ressources/writeup.md) |
+| 06        | OpenRedirectSiteParameter        | [Breach06_OpenRedirectSiteParameter](Breach06_OpenRedirectSiteParameter/Ressources/writeup.md) |
+| 07        | SpoofedHeaderAccessBypass        | [Breach07_SpoofedHeaderAccessBypass](Breach07_SpoofedHeaderAccessBypass/Ressources/writeup.md) |
+| 08        | SQLi_Union_ExtractFlag           | [Breach08_SQLi_Union_ExtractFlag](Breach08_SQLi_Union_ExtractFlag/Ressources/writeup.md) |
+| 09        | SQLi_DeepEnumerationFlagRebuild  | [Breach09_SQLi_DeepEnumerationFlagRebuild](Breach09_SQLi_DeepEnumerationFlagRebuild/Ressources/writeup.md) |
+| 10        | SurveyValueBypass                | [Breach10_SurveyValueBypass](Breach10_SurveyValueBypass/Ressources/writeup.md) |
+| 11        | DirectoryTraversalEtcPasswd      | [Breach11_DirectoryTraversalEtcPasswd](Breach11_DirectoryTraversalEtcPasswd/Ressources/writeup.md) |
+| 12        | StoredXSSFeedbackForm            | [Breach12_StoredXSSFeedbackForm](Breach12_StoredXSSFeedbackForm/Ressources/writeup.md) |
+| 13        | PasswordOnlyAuthBypass           | [Breach13_PasswordOnlyAuthBypass](Breach13_PasswordOnlyAuthBypass/Ressources/writeup.md) |
+| 14        | FileUploadMIMESpoofing           | [Breach14_FileUploadMIMESpoofing](Breach14_FileUploadMIMESpoofing/Ressources/writeup.md) |
+
 
 Each write-up includes:
 - **Discovery & Exploit**: How the flag was obtained

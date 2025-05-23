@@ -1,4 +1,3 @@
-```markdown
 # Breach: Authentication Bypass via Password-Only Logic
 
 ## Discovery & Exploit
@@ -52,4 +51,13 @@ References:
 
 > The Python script used for bruteforce testing is available at:  
 > [`Ressources/login.py`](../login.py)
-```
+
+---
+
+<table width="100%">
+  <tr>
+    <td align="left"><a href="../Breach12_*/Ressources/writeup.md">← Previous: Breach12</a></td>
+    <td align="center"><a href="../../README.md">↑ Back to README</a></td>
+    <td align="right"><a href="../Breach14_*/Ressources/writeup.md">Next: Breach14 →</a></td>
+  </tr>
+</table>

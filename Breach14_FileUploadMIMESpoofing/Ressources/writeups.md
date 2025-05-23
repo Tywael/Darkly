@@ -57,3 +57,13 @@ References:
 4. Rename uploaded files to prevent code execution.
 5. Disallow executable file types entirely (e.g., `.php`, `.exe`, `.js`, `.jsp`).
 6. Set appropriate Content-Disposition headers and file permissions.
+
+---
+
+<table width="100%">
+  <tr>
+    <td align="left"><a href="../Breach13_*/Ressources/writeup.md">← Previous: Breach13</a></td>
+    <td align="center"><a href="../../README.md">↑ Back to README</a></td>
+    <td align="right">Finish</td>
+  </tr>
+</table>

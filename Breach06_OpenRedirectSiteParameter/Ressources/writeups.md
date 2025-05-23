@@ -44,3 +44,13 @@ To prevent this issue:
 3. Use short, indirect redirect codes (e.g., `/redirect?id=2`) rather than exposing full URLs.
 4. Always validate and sanitize user input.
 5. Implement logging and monitoring to detect unexpected redirect patterns.
+
+---
+
+<table width="100%">
+  <tr>
+    <td align="left"><a href="../Breach05_*/Ressources/writeup.md">← Previous: Breach05</a></td>
+    <td align="center"><a href="../../README.md">↑ Back to README</a></td>
+    <td align="right"><a href="../Breach07_*/Ressources/writeup.md">Next: Breach07 →</a></td>
+  </tr>
+</table>

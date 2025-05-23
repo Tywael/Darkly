@@ -37,3 +37,12 @@ To prevent this issue:
 3. Avoid exposing any sensitive identifiers (email, user ID) in hidden fields.
 4. Implement CSRF protection on form submissions.
 5. Log and monitor anomalies in password recovery flows.
+
+---
+<table width="100%">
+  <tr>
+    <td align="left"><a href="../Breach03_*/Ressources/writeup.md">← Previous: Breach03</a></td>
+    <td align="center"><a href="../../README.md">↑ Back to README</a></td>
+    <td align="right"><a href="../Breach05_*/Ressources/writeup.md">Next: Breach05 →</a></td>
+  </tr>
+</table>

@@ -60,3 +60,13 @@ To prevent such issues:
 3. Do not expose internal or restricted paths in `robots.txt`.
 4. Implement proper access control and authentication mechanisms for any confidential resource.
 5. Use automated scanners to audit public paths for information leaks or misconfigurations.
+
+---
+
+<table width="100%">
+  <tr>
+    <td align="left"><a href="../Breach01_*/Ressources/writeup.md">← Previous: Breach01</a></td>
+    <td align="center"><a href="../../README.md">↑ Back to README</a></td>
+    <td align="right"><a href="../Breach03_*/Ressources/writeup.md">Next: Breach03 →</a></td>
+  </tr>
+</table>

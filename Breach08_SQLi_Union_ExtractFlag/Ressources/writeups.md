@@ -61,3 +61,13 @@ References:
 2. Sanitize all user input before including it in SQL queries.
 3. Limit database access rights to prevent information leakage.
 4. Avoid displaying database errors or debug content in production environments.
+
+---
+
+<table width="100%">
+  <tr>
+    <td align="left"><a href="../Breach07_*/Ressources/writeup.md">← Previous: Breach07</a></td>
+    <td align="center"><a href="../../README.md">↑ Back to README</a></td>
+    <td align="right"><a href="../Breach09_*/Ressources/writeup.md">Next: Breach09 →</a></td>
+  </tr>
+</table>

@@ -38,3 +38,13 @@ References:
 3. Use frameworks or templating engines that auto-escape output.
 4. Apply a strict Content Security Policy (CSP) to reduce XSS impact.
 5. Review stored content periodically for unexpected or malicious input.
+
+---
+
+<table width="100%">
+  <tr>
+    <td align="left"><a href="../Breach11_*/Ressources/writeup.md">← Previous: Breach11</a></td>
+    <td align="center"><a href="../../README.md">↑ Back to README</a></td>
+    <td align="right"><a href="../Breach13_*/Ressources/writeup.md">Next: Breach13 →</a></td>
+  </tr>
+</table>

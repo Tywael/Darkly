@@ -36,3 +36,13 @@ References:
 2. Reject or sanitize any value outside the accepted range (1–10).
 3. Avoid relying on frontend controls (e.g., sliders or dropdowns) for data integrity.
 4. Log invalid submissions for review or rate-limiting.
+
+---
+
+<table width="100%">
+  <tr>
+    <td align="left"><a href="../Breach09_*/Ressources/writeup.md">← Previous: Breach09</a></td>
+    <td align="center"><a href="../../README.md">↑ Back to README</a></td>
+    <td align="right"><a href="../Breach11_*/Ressources/writeup.md">Next: Breach11 →</a></td>
+  </tr>
+</table>

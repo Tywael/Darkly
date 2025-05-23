@@ -1,4 +1,3 @@
-```markdown
 # Breach: Directory Traversal via Page Parameter
 
 ## Discovery & Exploit
@@ -42,4 +41,13 @@ References:
 3. Avoid including user input directly in filesystem paths.
 4. Run web applications with limited file system permissions.
 5. Log and alert on unusual file access attempts.
-```
+
+---
+
+<table width="100%">
+  <tr>
+    <td align="left"><a href="../Breach10_*/Ressources/writeup.md">← Previous: Breach10</a></td>
+    <td align="center"><a href="../../README.md">↑ Back to README</a></td>
+    <td align="right"><a href="../Breach12_*/Ressources/writeup.md">Next: Breach12 →</a></td>
+  </tr>
+</table>

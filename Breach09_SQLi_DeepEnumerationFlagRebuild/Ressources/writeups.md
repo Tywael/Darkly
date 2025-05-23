@@ -1,4 +1,3 @@
-```markdown
 # Breach: Full SQL Enumeration and Flag Reconstruction via Hash Reversal
 
 ## Discovery & Exploit
@@ -75,3 +74,13 @@ References:
 3. Apply the principle of least privilege on database accounts.
 4. Sanitize and validate all user input.
 5. Monitor for suspicious queries and implement rate limiting.
+
+---
+
+<table width="100%">
+  <tr>
+    <td align="left"><a href="../Breach08_*/Ressources/writeup.md">← Previous: Breach08</a></td>
+    <td align="center"><a href="../../README.md">↑ Back to README</a></td>
+    <td align="right"><a href="../Breach10_*/Ressources/writeup.md">Next: Breach10 →</a></td>
+  </tr>
+</table>

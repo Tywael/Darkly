@@ -69,3 +69,13 @@ To prevent this issue:
 3. Avoid using `.htpasswd` files with weak or outdated hashing algorithms like MD5.
 4. Use modern, salted password hashing algorithms (e.g., bcrypt, scrypt, Argon2).
 5. Restrict access to administrative paths through authentication and proper access control.
+
+---
+
+<table width="100%">
+  <tr>
+    <td align="left">No Previous</td>
+    <td align="center"><a href="../../README.md">↑ Back to README</a></td>
+    <td align="right"><a href="../Breach02_*/Ressources/writeup.md">Next: Breach02 →</a></td>
+  </tr>
+</table>

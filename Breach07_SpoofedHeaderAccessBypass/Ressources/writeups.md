@@ -48,3 +48,13 @@ To prevent this vulnerability:
 2. Implement proper server-side authentication and role-based access control (RBAC).
 3. Ensure that hidden resources are protected by session checks or tokens, not obscurity.
 4. Log access attempts with unusual or spoofed headers for auditing.
+
+---
+
+<table width="100%">
+  <tr>
+    <td align="left"><a href="../Breach06_*/Ressources/writeup.md">← Previous: Breach06</a></td>
+    <td align="center"><a href="../../README.md">↑ Back to README</a></td>
+    <td align="right"><a href="../Breach08_*/Ressources/writeup.md">Next: Breach08 →</a></td>
+  </tr>
+</table>

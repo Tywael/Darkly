@@ -44,3 +44,13 @@ To prevent this issue:
 3. Avoid storing sensitive values or access indicators in cookies unless they are cryptographically signed (e.g., JWTs with validation).
 4. Use HTTP-only and secure flags on cookies to reduce exposure.
 5. Implement proper session management with backend validation mechanisms.
+
+---
+
+<table width="100%">
+  <tr>
+    <td align="left"><a href="../Breach02_*/Ressources/writeup.md">← Previous: Breach02</a></td>
+    <td align="center"><a href="../../README.md">↑ Back to README</a></td>
+    <td align="right"><a href="../Breach04_*/Ressources/writeup.md">Next: Breach04 →</a></td>
+  </tr>
+</table>

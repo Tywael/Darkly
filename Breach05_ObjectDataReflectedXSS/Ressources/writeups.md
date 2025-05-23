@@ -72,3 +72,13 @@ To mitigate this vulnerability:
 3. Set appropriate Content Security Policy (CSP) headers to block inline scripts and dangerous sources.
 4. Escape user input in HTML contexts using safe encoding techniques (e.g., OWASP’s ESAPI).
 5. Use frameworks and libraries that auto-escape content and protect against injection attacks.
+
+---
+
+<table width="100%">
+  <tr>
+    <td align="left"><a href="../Breach04_*/Ressources/writeup.md">← Previous: Breach04</a></td>
+    <td align="center"><a href="../../README.md">↑ Back to README</a></td>
+    <td align="right"><a href="../Breach06_*/Ressources/writeup.md">Next: Breach06 →</a></td>
+  </tr>
+</table>
