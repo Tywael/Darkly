@@ -49,8 +49,8 @@ To prevent this issue:
 
 <table width="100%">
   <tr>
-    <td align="left"><a href="../Breach05_*/Ressources/writeup.md">← Previous: Breach05</a></td>
+    <td align="left"><a href="../../Breach05_ObjectDataReflectedXSS/Ressources/writeup.md">← Previous: Breach05</a></td>
     <td align="center"><a href="../../README.md">↑ Back to README</a></td>
-    <td align="right"><a href="../Breach07_*/Ressources/writeup.md">Next: Breach07 →</a></td>
+    <td align="right"><a href="../../Breach07_SpoofedHeaderAccessBypass/Ressources/writeup.md">Next: Breach07 →</a></td>
   </tr>
 </table>

@@ -49,8 +49,8 @@ To prevent this issue:
 
 <table width="100%">
   <tr>
-    <td align="left"><a href="../Breach02_*/Ressources/writeup.md">← Previous: Breach02</a></td>
+    <td align="left"><a href="../../Breach02_RecursiveReadmeEnumeration/Ressources/writeup.md">← Previous: Breach02</a></td>
     <td align="center"><a href="../../README.md">↑ Back to README</a></td>
-    <td align="right"><a href="../Breach04_*/Ressources/writeup.md">Next: Breach04 →</a></td>
+    <td align="right"><a href="../../Breach04_HiddenFieldEmailManipulation/Ressources/writeup.md">Next: Breach04 →</a></td>
   </tr>
 </table>

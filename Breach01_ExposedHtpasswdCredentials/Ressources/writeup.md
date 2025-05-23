@@ -76,6 +76,6 @@ To prevent this issue:
   <tr>
     <td align="left">No Previous</td>
     <td align="center"><a href="../../README.md">↑ Back to README</a></td>
-    <td align="right"><a href="../Breach02_*/Ressources/writeup.md">Next: Breach02 →</a></td>
+    <td align="right"><a href="../../Breach02_RecursiveReadmeEnumeration/Ressources/writeup.md">Next: Breach02 →</a></td>
   </tr>
 </table>

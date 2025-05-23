@@ -41,8 +41,8 @@ To prevent this issue:
 ---
 <table width="100%">
   <tr>
-    <td align="left"><a href="../Breach03_*/Ressources/writeup.md">← Previous: Breach03</a></td>
+    <td align="left"><a href="../../Breach03_WeakCookieAccessControl/Ressources/writeup.md">← Previous: Breach03</a></td>
     <td align="center"><a href="../../README.md">↑ Back to README</a></td>
-    <td align="right"><a href="../Breach05_*/Ressources/writeup.md">Next: Breach05 →</a></td>
+    <td align="right"><a href="../../Breach05_ObjectDataReflectedXSS/Ressources/writeup.md">Next: Breach05 →</a></td>
   </tr>
 </table>

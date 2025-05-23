@@ -41,8 +41,8 @@ References:
 
 <table width="100%">
   <tr>
-    <td align="left"><a href="../Breach09_*/Ressources/writeup.md">← Previous: Breach09</a></td>
+    <td align="left"><a href="../../Breach09_SQLi_DeepEnumerationFlagRebuild/Ressources/writeup.md">← Previous: Breach09</a></td>
     <td align="center"><a href="../../README.md">↑ Back to README</a></td>
-    <td align="right"><a href="../Breach11_*/Ressources/writeup.md">Next: Breach11 →</a></td>
+    <td align="right"><a href="../../Breach11_DirectoryTraversalEtcPasswd/Ressources/writeup.md">Next: Breach11 →</a></td>
   </tr>
 </table>

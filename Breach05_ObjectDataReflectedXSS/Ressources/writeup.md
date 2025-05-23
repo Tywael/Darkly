@@ -77,8 +77,8 @@ To mitigate this vulnerability:
 
 <table width="100%">
   <tr>
-    <td align="left"><a href="../Breach04_*/Ressources/writeup.md">← Previous: Breach04</a></td>
+    <td align="left"><a href="../../Breach04_HiddenFieldEmailManipulation/Ressources/writeup.md">← Previous: Breach04</a></td>
     <td align="center"><a href="../../README.md">↑ Back to README</a></td>
-    <td align="right"><a href="../Breach06_*/Ressources/writeup.md">Next: Breach06 →</a></td>
+    <td align="right"><a href="../../Breach06_OpenRedirectSiteParameter/Ressources/writeup.md">Next: Breach06 →</a></td>
   </tr>
 </table>

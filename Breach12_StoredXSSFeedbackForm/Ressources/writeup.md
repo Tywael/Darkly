@@ -43,8 +43,8 @@ References:
 
 <table width="100%">
   <tr>
-    <td align="left"><a href="../Breach11_*/Ressources/writeup.md">← Previous: Breach11</a></td>
+    <td align="left"><a href="../../Breach11_DirectoryTraversalEtcPasswd/Ressources/writeup.md">← Previous: Breach11</a></td>
     <td align="center"><a href="../../README.md">↑ Back to README</a></td>
-    <td align="right"><a href="../Breach13_*/Ressources/writeup.md">Next: Breach13 →</a></td>
+    <td align="right"><a href="../../Breach13_PasswordOnlyAuthBypass/Ressources/writeup.md">Next: Breach13 →</a></td>
   </tr>
 </table>

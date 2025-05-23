@@ -46,8 +46,8 @@ References:
 
 <table width="100%">
   <tr>
-    <td align="left"><a href="../Breach10_*/Ressources/writeup.md">← Previous: Breach10</a></td>
+    <td align="left"><a href="../../Breach10_SurveyValueBypass/Ressources/writeup.md">← Previous: Breach10</a></td>
     <td align="center"><a href="../../README.md">↑ Back to README</a></td>
-    <td align="right"><a href="../Breach12_*/Ressources/writeup.md">Next: Breach12 →</a></td>
+    <td align="right"><a href="../../Breach12_StoredXSSFeedbackForm/Ressources/writeup.md">Next: Breach12 →</a></td>
   </tr>
 </table>

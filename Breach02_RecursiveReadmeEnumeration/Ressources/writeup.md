@@ -65,8 +65,8 @@ To prevent such issues:
 
 <table width="100%">
   <tr>
-    <td align="left"><a href="../Breach01_*/Ressources/writeup.md">← Previous: Breach01</a></td>
-    <td align="center"><a href="../../README.md">↑ Back to README</a></td>
-    <td align="right"><a href="../Breach03_*/Ressources/writeup.md">Next: Breach03 →</a></td>
+    <td align="left"><a href="../../Breach01_ExposedHtpasswdCredentials/Ressources/writeup.md">← Previous: Breach01</a></td>
+    <td align="center"><a href="../../../README.md">↑ Back to README</a></td>
+    <td align="right"><a href="../../Breach03_WeakCookieAccessControl/Ressources/writeup.md">Next: Breach03 →</a></td>
   </tr>
 </table>

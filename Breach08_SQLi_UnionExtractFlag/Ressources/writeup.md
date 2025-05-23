@@ -66,8 +66,8 @@ References:
 
 <table width="100%">
   <tr>
-    <td align="left"><a href="../Breach07_*/Ressources/writeup.md">← Previous: Breach07</a></td>
+    <td align="left"><a href="../../Breach07_SpoofedHeaderAccessBypass/Ressources/writeup.md">← Previous: Breach07</a></td>
     <td align="center"><a href="../../README.md">↑ Back to README</a></td>
-    <td align="right"><a href="../Breach09_*/Ressources/writeup.md">Next: Breach09 →</a></td>
+    <td align="right"><a href="../../Breach09_SQLi_DeepEnumerationFlagRebuild/Ressources/writeup.md">Next: Breach09 →</a></td>
   </tr>
 </table>
