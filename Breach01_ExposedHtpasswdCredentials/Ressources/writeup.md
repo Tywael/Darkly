@@ -42,7 +42,7 @@ Username: root
 Password: qwerty123@
 ```
 
-Using these credentials on the `/admin` page allowed us to log in successfully and retrieve the flag.
+Using these credentials on the `/admin` page allowed us to log in successfully and retrieve the [flag](../flag).
 
 ## Vulnerability Details
 
