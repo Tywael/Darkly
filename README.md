@@ -22,7 +22,7 @@ The goal of this project is to demonstrate practical offensive techniques, provi
 
 - VirtualBox or VMware
 - Web browser
-- [Lab ISO image](http://example.com/path/to/iso)
+- [Lab ISO image](https://cdn.intra.42.fr/isos/Darkly_i386.iso)
 
 ## Installation
 
